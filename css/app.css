@@ -1,0 +1,293 @@
+body {
+    background-color: #043873;
+    color: white;
+    font-family: 'Inter';
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.btn-primary {
+    background-color: #1E88E5;
+    border: none;
+}
+
+.partners {
+    height: 71px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20rem;
+}
+
+.partners img {
+    max-width: 100px;
+    margin: 20px;
+    height: 100%;
+    object-fit: contain;
+}
+
+.value-box {
+    background: #1976D2;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+footer {
+    background: #043873;
+    color: #fff;
+    padding: 50px 0;
+}
+
+.underline {
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 5px;
+    color: #FFC107;
+}
+
+#nav-links {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 43px;
+    letter-spacing: -0.02em;
+    color: #fff !important;
+}
+
+.hero-section {
+    padding-top: 140px;
+    padding-bottom: 140px;
+    padding-left: 220px;
+    padding-right: 220px;
+    top: 92px;
+    height: 829px;
+}
+
+.nav-bar-styles {
+    padding-top: 16px;
+    padding-bottom: 220px;
+    padding-left: 16px;
+    padding-right: 220px;
+    justify-content: space-between;
+    height: 161px;
+}
+
+.certification-section {
+    padding-top: 140px;
+    padding-right: 220px;
+    padding-bottom: 140px;
+    padding-left: 220px;
+    gap: 100px;
+    top: 921px;
+}
+
+.btn-get-started {
+    background-color: #4F9CF9;
+    padding-top: 20px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    height: 63px;
+    width: 201px;
+    border-radius: 6px;
+    gap: 10px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: -0.02em;
+    color: #fff;
+}
+
+.text-content-box {
+    width: 570px;
+    height: 375px;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    align-items: flex-start;
+    text-align: left;
+}
+
+.text-content-box h1 {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 100%;
+    letter-spacing: -0.02em;
+    color: #212529;
+}
+
+.highlight {
+    background: #FFEF9F;
+    border-radius: 2px;
+}
+
+.work-together-p {
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: -0.02em;
+    font-weight: 400;
+    color: #212529;
+}
+
+.accordion-button {
+    background-color: #043873;
+    color: white;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 40px;
+    padding-left: 40px;
+    gap: 16px;
+}
+
+.accordion-item {
+    border: none;
+    background-color: #043873;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #043873;
+    color: white;
+}
+
+.accordion-body {
+    background-color: #043873;
+    color: #fff;
+    line-height: 160%;
+    font-weight: 500px;
+    font-size: 16px;
+    letter-spacing: -0.03em;
+}
+
+
+/* Custom Plus and Minus icons */
+
+.accordion-button::after {
+    content: "\002B";
+    /* Unicode for Plus sign */
+    font-size: 20px;
+    position: absolute;
+    right: 20px;
+    transition: transform 0.2s ease;
+}
+
+.accordion-button.collapsed::after {
+    content: "\002B";
+    /* Plus icon when collapsed */
+}
+
+.accordion-button:not(.collapsed)::after {
+    content: "\2212";
+    /* Minus icon when expanded */
+}
+
+.value-propsition-section {
+    padding-top: 140px;
+    padding-right: 220px;
+    padding-bottom: 140px;
+    padding-left: 220px;
+    gap: 98px;
+    top: 2509px;
+}
+
+.value-header {
+    color: #fff;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 100%;
+    letter-spacing: -0.02em;
+}
+
+.value-header-p {
+    color: #fff !important;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: -0.02em;
+}
+
+.our-partners-section {
+    top: 3478px;
+    padding-top: 140px;
+    padding-right: 220px;
+    padding-bottom: 140px;
+    padding-left: 220px;
+    gap: 100px;
+    left: -19px;
+    background-color: #fff;
+}
+
+.partner-heading {
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 100%;
+    letter-spacing: -0.02em;
+    color: #212529;
+    text-align: center;
+}
+
+.try-gfgp {
+    padding-top: 140px;
+    padding-right: 220px;
+    padding-bottom: 32px;
+    padding-left: 220px;
+    gap: 200px;
+    top: 4016px;
+    background-color: #043873;
+}
+
+.try-gfgp h1 {
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 100%;
+    letter-spacing: -0.02em;
+    color: #fff;
+    text-align: center;
+}
+
+.try-gfgp p {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -0.02em;
+    color: #fff;
+    text-align: center;
+}
+
+.btn-try {
+    border-radius: 10px;
+    padding: 20px 40px;
+    gap: 10px;
+    background-color: #4F9CF9;
+    font-size: 16px;
+    letter-spacing: -0.02em;
+    line-height: 100%;
+    font-weight: 500;
+}
+
+.footer-row {
+    padding: 140px 220px 32px 220px;
+}
+
+.footer-link {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.02em;
+    /* -2% */
+    text-align: left;
+    display: inline-block;
+    /* ensures text-align applies */
+}
+
+.footer-link:hover {
+    color: #FFE492;
+}
+
+@media (max-width: 768px) {
+    .section {
+        padding: 30px 0;
+    }
+}
