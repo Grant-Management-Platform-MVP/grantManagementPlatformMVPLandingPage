@@ -14,6 +14,30 @@
     <link href="css/app.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Inter" rel="stylesheet">
 </head>
+<script>
+    window.onload = function() {
+        if (!localStorage.getItem('cookiesAccepted')) {
+            document.getElementById('cookieBanner').style.display = 'block';
+        }
+    }
+
+    function acceptCookies() {
+        localStorage.setItem('cookiesAccepted', 'true');
+        document.getElementById('cookieBanner').style.display = 'none';
+    }
+</script>
+
+
+<div id="cookieBanner" class="alert alert-dark alert-dismissible fade show fixed-bottom mb-0" role="alert" style="z-index: 1050; display: none;">
+    <div class="container d-flex justify-content-between align-items-center flex-wrap">
+        <span>
+        We use cookies to improve your experience. By using our site, you agree to our 
+        <a href="#" class="alert-link">Privacy Policy</a>.
+      </span>
+        <button type="button" class="btn btn-primary btn-lg ms-3" onclick="acceptCookies()">Accept</button>
+    </div>
+</div>
+
 
 <body>
 
