@@ -5,6 +5,8 @@ body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 900px;
 }
 
 .btn-primary {
@@ -54,11 +56,11 @@ footer {
 }
 
 .hero-section {
-    padding-top: 140px;
+    /* padding-top: 140px;
     padding-bottom: 140px;
     padding-left: 220px;
     padding-right: 220px;
-    top: 92px;
+    top: 92px; */
     height: 829px;
 }
 
