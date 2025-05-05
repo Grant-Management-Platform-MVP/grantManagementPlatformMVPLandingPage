@@ -13,10 +13,9 @@ body {
 }
 
 .partners {
-    height: 71px;
     justify-content: space-between;
     align-items: center;
-    gap: 20rem;
+    text-align: center;
 }
 
 .partners img {
@@ -72,12 +71,12 @@ footer {
 }
 
 .certification-section {
-    padding-top: 140px;
+    /* padding-top: 140px;
     padding-right: 220px;
     padding-bottom: 140px;
     padding-left: 220px;
     gap: 100px;
-    top: 921px;
+    top: 921px; */
 }
 
 .btn-get-started {
@@ -98,13 +97,12 @@ footer {
 }
 
 .text-content-box {
-    width: 570px;
     height: 375px;
     display: flex;
     flex-direction: column;
-    gap: 60px;
     align-items: flex-start;
     text-align: left;
+    padding: 10px;
 }
 
 .text-content-box h1 {
@@ -206,19 +204,13 @@ footer {
 }
 
 .our-partners-section {
-    top: 3478px;
-    padding-top: 140px;
-    padding-right: 220px;
-    padding-bottom: 140px;
-    padding-left: 220px;
-    gap: 100px;
     left: -19px;
     background-color: #fff;
 }
 
 .partner-heading {
     font-weight: 700;
-    font-size: 72px;
+    font-size: 70px;
     line-height: 100%;
     letter-spacing: -0.02em;
     color: #212529;
@@ -226,13 +218,8 @@ footer {
 }
 
 .try-gfgp {
-    padding-top: 10px;
-    padding-right: 220px;
-    padding-bottom: 32px;
-    padding-left: 220px;
-    gap: 200px;
-    top: 4016px;
     background-color: #043873;
+    padding-bottom: 80px;
 }
 
 .try-gfgp h1 {
@@ -262,10 +249,6 @@ footer {
     letter-spacing: -0.02em;
     line-height: 100%;
     font-weight: 500;
-}
-
-.footer-row {
-    padding: 10px 220px 32px 220px;
 }
 
 .footer-link {
