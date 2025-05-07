@@ -5,8 +5,7 @@ body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
-    /* scroll-behavior: smooth;
-    scroll-padding-top: 900px; */
+    scroll-behavior: smooth;
 }
 
 .btn-primary {
@@ -69,7 +68,7 @@ footer {
     padding-bottom: 220px;
     padding-left: 16px;
     justify-content: space-between;
-    height: 132px;
+    height: auto
 }
 
 .certification-section {
