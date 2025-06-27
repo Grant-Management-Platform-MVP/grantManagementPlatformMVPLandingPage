@@ -37,4 +37,4 @@ jobs:
         script: |
           docker load < ~/deployments/static-site.tar
           docker stop static-web || true && docker rm static-web || true
-          docker run -d --name static-web -p 80:80 static-site
+          docker run -d --name static-web -p 8080:80 static-site
